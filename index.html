@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Limousine - Luxury Transportation Services</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav id="navbar">
+  <div class="logo">LIMUSINAS COUNTRY</div>
+
+  <!-- Hamburger icon -->
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#welcome">Inicio</a></li>
+    <li><a href="#services">Servicios</a></li>
+    <li><a href="#gallery">Galeria</a></li>
+    <li><a href="#service-area">Cobertura</a></li>
+    <li><a href="#contact">Contacto</a></li>
+    <li><a href="#book" class="cta-nav bookNow">Reserva</a></li>
+  </ul>
+</nav>
+<div id="contactModalMain" class="modal">
+  <div class="modal-content">
+    <button id="closeModal" class="close-btn">&times;</button>
+    <h2>Contáctanos</h2>
+    
+    <!-- Initial view with two buttons -->
+    <div id="contactOptions">
+      <p>Elige tu método de contacto preferido:</p>
+      <button id="whatsappBtn" class="contact-btn whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </button>
+      <button id="facebookBtn" class="contact-btn facebook-btn">
+        <i class="fa-brands fa-facebook-f"></i> Facebook
+      </button>
+
+       <button id="instagramBtn" class="contact-btn instagram-btn">
+        <i class="fa-brands fa-instagram"></i> Instagram
+      </button>
+      <p>O escribenos a: <br><strong>limosinascontry@gmail.com</strong></p>
+    </div>
+
+
+  </div>
+</div>
+
+<section class="showcase-image">
+  <div class="overlay"></div>
+  <img src="Imgs/LimosinaHDFin.jpg" alt="Luxury Limousine" class="wide-image image1">
+  <img src="Imgs/LimoPresentation.jpg" alt="Luxury Limousine 2" class="wide-image image2">
+  <div class="showcase-text">
+    <h1 class="scroll-animate">¡LLEVA TU FIESTA SOBRE RUEDAS!</h1>
+    <p class="scroll-animate">
+      Disfruta del transporte de lujo con nuestra flota premium.<br>
+      Perfecto para bodas, eventos corporativos y ocasiones especiales.
+    </p>
+  </div>
+</section>
+    <section class="features" id="welcome">
+        <h2 class="section-title scroll-amimate">Bienvenido a Limusinas Country</h2>
+        <p class="section-subtitle scroll-animate">
+            En Limusinas Country nos especializamos en brindar experiencias de transporte de lujo en la <strong>Zona Metropolitana de Guadalajara.</strong>
+        </p>
+        <div class="features-grid">
+            <div class="feature-card scroll-animate">
+                <div class="feature-image">
+                    <img src="Imgs/LimoCountryFleet.jpg" alt="Flota de lujo">
+                </div>
+                <h3>Flota de lujo</h3>
+                <p>Vehículos impecablemente mantenidos y equipados con comodidades premium para su comodidad.</p>
+            </div>
+            <div class="feature-card scroll-animate">
+                <div class="feature-image">
+                    <img src="Imgs/LimoTransportService.jpg" alt="Choferes Profesionales">
+                </div>
+                <h3>Choferes Profesionales</h3>
+                <p>Conductores experimentados y con licencia comprometidos con la seguridad y un servicio excepcional.</p>
+            </div>
+            <div class="feature-card scroll-animate">
+                <div class="feature-image">
+                    <img src="Imgs/LimoLuxuryVip.png" alt="Tratamiento VIP">
+                </div>
+                <h3>Tratamiento VIP</h3>
+                <p>Servicio personalizado para cada viaje.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fleet" id="services">
+        <h2 class="section-title" style="color: #292929;">Servicios</h2>
+        <p class="section-subtitle" style="color: #666;">El vehículo perfecto para cualquier ocasión</p>
+        <div class="fleet-grid">
+            <div class="fleet-card scroll-animate">
+                <div class="feature-image">
+                    <img src="Imgs/WeddingLimo.png" alt="Boda">
+                </div>
+                <div class="fleet-info">
+                    <h3>Boda</h3>
+                    <p class="capacity">Haz de tu día especial un momento inolvidable con elegancia y estilo.</p>
+                    <button class="book-btn bookNow">RESERVAR</button>
+                </div>
+            </div>
+            <div class="fleet-card scroll-animate">
+                <div class="feature-image">
+                    <img src="Imgs/XVParty.jpg" alt="XV Años">
+                </div>
+                <div class="fleet-info">
+                    <h3>XV Años</h3>
+                    <p class="capacity">Celebra esta etapa única con un transporte digno de una princesa.</p>
+                    <button class="book-btn bookNow">RESERVAR</button>
+                </div>
+            </div>
+            <div class="fleet-card scroll-animate">
+                <div class="feature-image">
+                    <img src="Imgs/LimoVIP.jpg" alt="Fiesta VIP">
+                </div>
+                <div class="fleet-info">
+                    <h3>Fiestas VIP</h3>
+                    <p class="capacity">Llega con estilo y disfruta la noche al máximo con lujo y comodidad.</p>
+                    <button class="book-btn bookNow">RESERVAR</button>
+                </div>
+            </div>
+            <div class="fleet-card scroll-animate">
+                    <div class="feature-image">
+                    <img src="Imgs/LimoEnterprise.jpg" alt="XV Años">
+                </div>
+                <div class="fleet-info">
+                    <h3>Servicios Ejecutivos</h3>
+                    <p class="capacity">Traslados profesionales para reuniones, aeropuerto y eventos corporativos.</p>
+                    <button class="book-btn bookNow">RESERVAR</button>
+                </div>
+            </div>
+            <div class="fleet-card scroll-animate">
+                <div class="feature-image">
+                    <img src="Imgs/LimoExecHD.jpg" alt="XV Años">
+                </div>
+                <div class="fleet-info">
+                    <h3>Servicio Empresarial</h3>
+                    <p class="capacity">Transporte premium para equipos de trabajo y clientes importantes.</p>
+                    <button class="book-btn bookNow">RESERVAR</button>
+                </div>
+            </div>
+            <div class="fleet-card scroll-animate">
+                <div class="feature-image">
+                    <img src="/Imgs/LimoBacheloretteLUX.jpg" alt="Despedida de Soltera">
+                </div>
+                <div class="fleet-info">
+                    <h3>Despedida de Soltera</h3>
+                    <p class="capacity">Celebra con tus amigas en grande antes del gran día.</p>
+                    <button class="book-btn bookNow">RESERVAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="gallery" id="gallery">
+    <h2 class="section-title" style="color: #ffffff;">Galería</h2>
+    <p class="section-subtitle" style="color: #b9b9b9;">Captura la elegancia en cada trayecto</p>
+    <div class="video_card scroll-animate">
+       <video src="/videos/LimosinasCountryVid1.mp4" type="video/mp4" controls></video>
+    </div>
+    <button class="see-more see-more-color">Ver Más 
+        <br>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <polyline points="6 9 12 15 18 9" />
+        </svg>
+    </button>
+    
+    <div class="carousel-container">
+        <button class="carousel-btn carousel-btn-prev">❮</button>
+        
+        <section class="carousel">
+            <div>
+
+                <div class="img"><img src="/Imgs/LimoChurch.jpg" alt="Limosina en Iglesia"></div>
+            </div>
+            <div>
+
+                <div class="img"><img src="/Imgs/LimoChurch2.jpg" alt="Limosina en Iglesia" loading="lazy"></div>
+            </div>
+            <div class="scroll-start">
+
+                <div class="img"><img src="/Imgs/LimoChurch3.jpg" alt="Limosina en Iglesia" loading="lazy"></div>
+            </div>
+            <div>
+
+                <div class="img"><img src="/Imgs/LimoEvent1.jpg" alt="Limosina en Evento" loading="lazy"></div>
+            </div>
+            <div>
+
+                <div class="img"><img src="/Imgs/LimoEvent2.jpg" alt="Limosina en Evento" loading="lazy"></div>
+            </div>
+            <div>
+
+                <div class="img"><img src="/Imgs/LimoEvent3.jpg" alt="Limosina en Evento" loading="lazy"></div>
+            </div>
+            <div>
+
+                <div class="img"><img src="/Imgs/LimoEvent4.jpg" alt="Jonathon Simmons" loading="lazy"></div>
+            </div>
+            <div>
+
+                <div class="img"><img src="/Imgs/LimoEvent5.jpg" alt="Jonathon Simmons" loading="lazy"></div>
+            </div>
+        </section>
+        
+        <button class="carousel-btn carousel-btn-next">❯</button>
+        
+    </div>
+    <div class="spacingCarrousel">
+        <br>
+        <br>
+    </div>
+</section>
+
+
+<section id="service-area" style="padding: 60px 20px; background-color: #f9f9f9;">
+  <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 2rem; margin-bottom: 10px; color: #222;">
+      Zona Metropolitana de Guadalajara
+    </h2>
+    <p style="font-size: 1rem; color: #555; margin-bottom: 30px;">
+      Ofrecemos servicio en toda la <strong>Zona Metropolitana de Guadalajara</strong>, 
+      incluyendo Zapopan, Tlaquepaque, Tonalá, Tlajomulco de Zúñiga.
+    </p>
+    <!-- Google Map Embed -->
+    <div style="position: relative; padding-bottom: 50%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74609.08709325947!2d-103.4471803!3d20.6739383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18b9b7b9b3b%3A0x1dc0e1e0c1d099e1!2sGuadalajara%2C%20Jal.!5e0!3m2!1ses!2smx!4v1728674829939!5m2!1ses!2smx"
+        width="100%"
+        height="450"
+        style="border:0; position:absolute; top:0; left:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+   <section class="socialNetworks  scroll-animate">
+  <h2 class="section-title">Contacto</h2>
+  <p class="section-subtitle">Síguenos en nuestras Redes Sociales</p>
+  <div class="social-links">
+    <a href="https://wa.me/523314140700" target="_blank" class="whatsapp-btn">WhatsApp</a>
+    <a href="https://www.facebook.com/profile.php?id=61581745696874" target="_blank" class="facebook-btn">Facebook</a>
+    <a href="https://www.instagram.com/limosinascontry2025/" target="_blank" class="instagram-btn">Instagram</a>
+  </div>
+</section>
+    <section class="cta-section  scroll-animate" id="contact">
+        <h2>¿Listo para experimentar el lujo?</h2>
+        <p>Reserve hoy su servicio de limusina premium y viaje con estilo</p>
+        <div class="cta-buttons">
+            <button class="cta-button primary-cta bookNow">Reserva Ahora</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Limusinas Country.</p>
+    </footer>
+<script src="js/modals.js"></script>
+<script src="js/carrousel.js"></script>
+<script>
+    const navbar = document.getElementById('navbar');
+    const toggle = document.getElementById('menu-toggle');
+    const links = document.getElementById('nav-links');
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+        } else {
+        navbar.classList.remove('scrolled');
+        }
+    });
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+            });
+        }
+        // Close menu after clicking a link (mobile)
+        links.classList.remove('show');
+        });
+    });
+
+    toggle.addEventListener('click', (e) => {
+        e.stopPropagation(); 
+        links.classList.toggle('show');
+    });
+
+    window.addEventListener('click', (e) => {
+        if (!links.contains(e.target) && !toggle.contains(e.target)) {
+        links.classList.remove('show');
+        }
+    });
+</script>
+</body>
+</html>
