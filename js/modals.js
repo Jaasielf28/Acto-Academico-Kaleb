@@ -26,23 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // WhatsApp button - redirect to WhatsApp
   whatsappBtn.addEventListener('click', function() {
     
-    const phoneNumber = '523314140700'; 
-    const message = encodeURIComponent('Hola, me gustaría obtener más información.');
+    const phoneNumber = '523329913759'; 
+    const message = encodeURIComponent('Hola, confirmo mi asistencia.');
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   });
-
-  const facebookBtn = document.getElementById('facebookBtn');
-facebookBtn.addEventListener('click', function() {
-  const facebookProfile = 'https://www.facebook.com/profile.php?id=61581745696874';
-  window.open(facebookProfile, '_blank');
-});
-
-// Instagram button
-const instagramBtn = document.getElementById('instagramBtn');
-instagramBtn.addEventListener('click', function() {
-  const instagramProfile = 'https://www.instagram.com/limosinascontry2025/';
-  window.open(instagramProfile, '_blank');
-});
 
   const observerOptions = {
     threshold: 0.15,
