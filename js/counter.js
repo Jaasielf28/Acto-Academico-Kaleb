@@ -1,4 +1,4 @@
-const eventDate = new Date("April 30, 2026 10:00:00").getTime();
+const eventDate = new Date("April 30, 2026 11:00:00").getTime();
 
 const countdown = setInterval(() => {
 
